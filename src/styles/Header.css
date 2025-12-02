@@ -4,9 +4,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 32px;
+  padding: 12px 24px;
   font-size: 16px;
-  width: 100%;
+  width: 100vw;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .header-left {
@@ -15,13 +17,13 @@
 }
 
 .header-logo {
-  height: 40px;
-  margin-right: 16px;
+  height: 36px;
+  margin-right: 12px;
 }
 
 .header-nav {
   display: flex;
-  gap: 24px;
+  gap: 20px;
 }
 
 .header-nav a {
@@ -40,7 +42,7 @@
 .header-right {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
 }
 
 .header-search {
@@ -51,6 +53,7 @@
   color: #333;
   font-size: 15px;
   outline: none;
+  width: 160px;
 }
 
 .header-login {
@@ -58,7 +61,7 @@
   color: #fff;
   border: none;
   border-radius: 16px;
-  padding: 6px 18px;
+  padding: 6px 16px;
   font-weight: 500;
   cursor: pointer;
   transition: background 0.2s;
@@ -72,15 +75,18 @@
   .header {
     flex-direction: column;
     align-items: stretch;
-    padding: 8px 12px;
+    padding: 8px 8px;
   }
   .header-nav {
     justify-content: center;
-    gap: 12px;
+    gap: 10px;
     margin: 8px 0;
   }
   .header-right {
     justify-content: flex-end;
-    gap: 8px;
+    gap: 6px;
+  }
+  .header-search {
+    width: 100px;
   }
 }
