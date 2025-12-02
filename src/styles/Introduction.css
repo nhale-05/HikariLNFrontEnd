@@ -1,0 +1,38 @@
+.introduction {
+  background: #f9f9fc;
+  padding: 40px 0 32px 0;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(60, 60, 100, 0.08);
+  margin: 32px auto;
+  max-width: 700px;
+}
+
+.introduction h2 {
+  color: #263238;
+  font-size: 2rem;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.introduction p {
+  color: #444;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin: 0 24px;
+}
+
+@media (max-width: 600px) {
+  .introduction {
+    padding: 24px 4px;
+    margin: 16px 4px;
+    max-width: 100%;
+  }
+  .introduction h2 {
+    font-size: 1.3rem;
+  }
+  .introduction p {
+    font-size: 1rem;
+    margin: 0 2px;
+  }
+}
